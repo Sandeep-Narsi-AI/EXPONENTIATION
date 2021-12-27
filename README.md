@@ -18,10 +18,17 @@ Program to find the exponentiation of a number.
 Developed by: 
 RegisterNumber: 
 */
+def exp(a,b):
+    c=a**b
+    return c
+a=int(input())
+b=int(input())
+print("Exponentiation of a given number:",exp(a,b))
 ```
 
 ## Output:
-![exponentiation of a number](expo.png)
+![exponentiation of a number](expo1.png)
+
 
 
 ## Result:
